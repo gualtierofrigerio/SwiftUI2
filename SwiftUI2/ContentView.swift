@@ -28,6 +28,11 @@ struct ContentView: View {
         else {
             SwitchView(text:"False", type:.red)
         }
+        Button(action: {
+            condition.toggle()
+        }) {
+            Text("This is a button")
+        }
     }
 }
 
