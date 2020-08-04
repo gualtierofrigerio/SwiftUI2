@@ -26,7 +26,7 @@ struct SwitchView: View {
     var body: some View {
         switch type {
         case .normal:
-            Text(text)
+            ConditionalView(conditionalText: text)
         case .bold:
             Text(text).bold()
         case .italic:
