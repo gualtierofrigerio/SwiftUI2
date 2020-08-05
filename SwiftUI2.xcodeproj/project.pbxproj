@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25029BA424DAE5580075DCEC /* ContentViewMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25029BA324DAE5580075DCEC /* ContentViewMultiple.swift */; };
 		25FAC60824D8486E00ADD268 /* SwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAC60724D8486E00ADD268 /* SwiftUI2App.swift */; };
 		25FAC60A24D8486E00ADD268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FAC60924D8486E00ADD268 /* ContentView.swift */; };
 		25FAC60C24D8487000ADD268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FAC60B24D8487000ADD268 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25029BA324DAE5580075DCEC /* ContentViewMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewMultiple.swift; sourceTree = "<group>"; };
 		25FAC60424D8486E00ADD268 /* SwiftUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FAC60724D8486E00ADD268 /* SwiftUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2App.swift; sourceTree = "<group>"; };
 		25FAC60924D8486E00ADD268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				25FAC60724D8486E00ADD268 /* SwiftUI2App.swift */,
 				25FAC60924D8486E00ADD268 /* ContentView.swift */,
 				25FAC63224D8492F00ADD268 /* ConditionalView.swift */,
+				25029BA324DAE5580075DCEC /* ContentViewMultiple.swift */,
 				25FAC60B24D8487000ADD268 /* Assets.xcassets */,
 				25FAC61024D8487000ADD268 /* Info.plist */,
 				25FAC60D24D8487000ADD268 /* Preview Content */,
@@ -269,6 +272,7 @@
 				25FAC60A24D8486E00ADD268 /* ContentView.swift in Sources */,
 				25FAC60824D8486E00ADD268 /* SwiftUI2App.swift in Sources */,
 				25FAC63324D8492F00ADD268 /* ConditionalView.swift in Sources */,
+				25029BA424DAE5580075DCEC /* ContentViewMultiple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
