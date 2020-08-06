@@ -10,16 +10,17 @@ import SwiftUI
 struct ContentViewMultiple: View {
     @Binding var counter:Int
     @SceneStorage("bold") var showBold:Bool = false
+    @AppStorage("globalCounter") var globalCounter = 0
     
     var body: some View {
         if showBold == true {
-            Text("Counter = \(counter)").bold()
+            Text("Counter = \(globalCounter)").bold()
         }
         else {
-            Text("Counter = \(counter)")
+            Text("Counter = \(globalCounter)")
         }
         Button {
-            counter = counter + 1
+            globalCounter = globalCounter + 1
         } label: {
             Text("Increase")
         }
